@@ -1,2 +1,25 @@
 @charset 'UTF-8';
 
+/*========= HEADER =========*/
+
+.logo{
+  height: 50px; width: 50px;
+}
+
+/*.nav_linklist{
+  padding:0 10px;
+}*/
+
+.linklist_white{
+  background: white;
+}
+
+.linklist_white > a{
+  color:black;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: none;
+    text-decoration-color: red;
+}
