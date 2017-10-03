@@ -37,4 +37,9 @@
   padding:15px 0;
 }
 
+.navbar-fixed-bottom, .navbar-fixed-top {
+  right:auto;
+  left:auto;
+}
+
 /*========= end of HEADER =========*/
