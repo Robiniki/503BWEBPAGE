@@ -6,9 +6,10 @@
   height: 50px; width: 50px;
 }
 
-/*.nav_linklist{
-  padding:0 10px;
-}*/
+.nav_linklist{
+  padding:15px 10px !important;
+  border-right: dotted 2px;
+}
 
 .linklist_white{
   background: white;
@@ -18,8 +19,22 @@
   color:black;
 }
 
+.linklist_rightgray{
+  background:rightgray;
+}
+
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
-    background-color: none;
-    text-decoration-color: red;
+    background-color: none !important;
+    text-decoration-color: red !important;
 }
+
+.navbar-brand{
+  padding:0;
+}
+
+#nav-content{
+  padding:15px 0;
+}
+
+/*========= end of HEADER =========*/
